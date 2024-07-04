@@ -1,0 +1,77 @@
+.field {
+	display: flex;
+	flex-wrap: wrap;
+	width: 250px;
+	height: 250px;
+}
+
+.field div {
+	width: calc(33% - 12px);
+	height: calc(33% - 12px);
+	border: 1px solid black;
+	margin: 5px;
+}
+
+.btn_restart {
+	border: 1px solid black;
+	border-radius: 3px;
+	color: white;
+	background-color: black;
+	margin-bottom: 20px;
+}
+.game_exit {
+	width: 70px;
+	background-color: black;
+	color: white;
+}
+
+.off {
+	display: none;
+}
+
+.on {
+	display: block;
+}
+
+.winner {
+	padding: 20px;
+	background-color: #f0f0f0;
+	color: black;
+	border-radius: 5px;
+	box-shadow: 4px 2px 22px -6px rgba(0, 0, 0, 0.1);
+}
+
+.players {
+	display: block;
+	width: 450px;
+	position: fixed;
+	/* z-index: 15; */
+	top: 20%;
+	left: 70%;
+	transform: translate(-90%, -50%);
+	padding: 20px;
+	background-color: white;
+	color: black;
+	border-radius: 5px;
+	box-shadow: 4px 2px 22px -6px rgba(0, 0, 0, 0.1);
+}
+
+.window {
+	background-color: rgba(0, 3, 6, 0.492);
+	width: 100%;
+	position: fixed;
+	z-index: 20;
+	height: 100vh;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.open {
+	display: flex;
+}
+
+.close {
+	display: none;
+}
